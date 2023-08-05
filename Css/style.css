@@ -20,6 +20,22 @@ header {
     text-align: center;
 }
 
+.profile-image {
+    display: inline-block;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.profile-image img {
+    width: 100%;
+    height: auto;
+}
+
+
 nav ul {
     list-style: none;
     display: flex;
