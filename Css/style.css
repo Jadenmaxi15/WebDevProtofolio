@@ -65,4 +65,38 @@ footer {
     background-color: #333;
     color: #fff;
     text-align: center;
-  }
+}
+
+/* Additional styling */
+header h1 {
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    opacity: 0.8;
+}
+
+#about h2,
+#portfolio h2,
+#contact h2 {
+    margin-bottom: 1em;
+}
+
+.project img {
+    display: block;
+    margin: 0 auto 1em;
+    border-radius: 5px;
+}
+
+/* Animations */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.fade-in.active {
+    opacity: 1;
+    transform: translateY(0);
+                          }
