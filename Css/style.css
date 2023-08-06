@@ -127,9 +127,8 @@ section {
 
 .overlay:hover::before {
     opacity: 1;
-    }
+}
 
-/* Additional styling */
 .skills-list {
     list-style: none;
     display: flex;
@@ -183,4 +182,4 @@ footer {
 .fade-in.active {
     opacity: 1;
     transform: translateY(0);
-    }
+}
